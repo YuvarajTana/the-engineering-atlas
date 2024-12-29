@@ -139,7 +139,3 @@ To succeed as a programmer, a solid understanding of Computer Science (CS) funda
 3. **Build projects** to apply your knowledge in real-world scenarios.  
 4. **Read standard CS books** like _Introduction to Algorithms (CLRS)_ and _Computer Networking: A Top-Down Approach_.  
 5. **Stay updated** with industry trends and best practices.
-
----
-
-**Would you like deeper resources or advice on a specific area?**
