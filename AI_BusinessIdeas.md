@@ -1,5 +1,7 @@
-# AI Business Ideas by Category
+# AI Business Ideas by Industry
 
+- **Credits To** [Hubspot](https://offers.hubspot.com/make-money-with-ai) 
+  
 ## Table of Contents
 - [1. Content Creation and Editing](#1-content-creation-and-editing)
 - [2. Productivity and Project Management](#2-productivity-and-project-management)
