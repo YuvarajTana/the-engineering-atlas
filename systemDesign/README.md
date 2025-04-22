@@ -6,7 +6,7 @@ Here's a comprehensive guide to the key areas you should focus on
 ---
 
 ## 🧠 Core System Design Concepts
-These are foundational elements that underpin robust system architectures
+These are foundational elements that underpin robust system architectures
 
 - **Scalability**:Design systems that can handle increased load gracefully. Understand horizontal vs. vertical scaling, sharding, and partitioning strategies
 
@@ -35,14 +35,14 @@ Familiarize yourself with these components and their roles within a system
 
 - **Caching Mechanisms**:Use in-memory data stores like Redis or Memcached to reduce database load and improve response times
 
-- **Content Delivery Networks (CDNs)**:Serve static content efficiently to users globally, reducing latency
+- **Content Delivery Networks (CDNs)**:Serve static content efficiently to users globally, reducing latency
 
 ---
 
 ## 📐 Design Principles & Patterns
-Adopt these principles to create robust and adaptable system:
+Adopt these principles to create robust and adaptable system:
 
-- **Modularity** Break down systems into independent, interchangeable modules to enhance maintainability and scalabilit.
+- **Modularity** Break down systems into independent, interchangeable modules to enhance maintainability and scalabilit.
 
 - **Separation of Concerns** Ensure that different aspects of the system (e.g., data access, business logic, presentation) are handled by distinct component.
 
