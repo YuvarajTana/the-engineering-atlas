@@ -598,4 +598,3 @@ Under the hood, when you do `dog.speak()`, JS looks:
 * **Use linters and formatters**: Enforcing rules like “no `var`” or “always declare functions before use” helps catch errors early.
 * **Keep learning by building**: As a fresh graduate, pair each concept with a small project: e.g., build a search-as-you-type field (debounce + promises), or a mini task pipeline (compose + reduce).
 
-You’ve got this—keep coding, break things, and refactor until each concept clicks. Good luck!
