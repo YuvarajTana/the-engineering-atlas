@@ -1,6 +1,7 @@
 ## JavaScript Core Concepts in detailed
 
-**1. `var`, `let`, and `const`**
+### **1. `var`, `let`, and `const`**
+
 JavaScript historically had only `var`, which is function-scoped and hoisted. ES6 introduced `let` and `const`, both block-scoped and not hoisted in the same way. In modern code, you should default to `const` for values you don’t reassign, use `let` when you need mutable bindings, and avoid `var` entirely unless you’re maintaining legacy projects.
 
 ```js
@@ -41,7 +42,8 @@ function counterLetConst() {
 
 ---
 
-**2. `map`, `filter`, and `reduce`**
+### **2. `map`, `filter`, and `reduce`**
+
 These are higher-order Array methods that let you transform, filter, or aggregate data declaratively. They’re more readable than `for` loops for array transformations.
 
 ```js
@@ -72,7 +74,8 @@ const sum = nums.reduce((acc, n) => acc + n, 0);
 
 ---
 
-**3. Functions**
+### **3. Functions**
+
 Functions in JS can be declared or expressed. They encapsulate logic and can be reused. ES6 introduced arrow functions, which have no own `this`.
 
 ```js
@@ -105,7 +108,8 @@ console.log(greetArrow("Charlie"));// Hey, Charlie!
 
 ---
 
-**4. Closures**
+### **4. Closures**
+
 A closure is when an inner function “closes over” variables from its outer scope. This lets you create private state or factory functions.
 
 ```js
@@ -137,7 +141,8 @@ console.log(counterB()); // 1 (separate scope)
 
 ---
 
-**5. Currying**
+### **5. Currying**
+
 Currying transforms a function with multiple arguments into a sequence of functions, each taking a single argument. It can make code more reusable and composable.
 
 ```js
@@ -173,7 +178,8 @@ console.log(double(5)); // 10
 
 ---
 
-**6. Objects**
+### **6. Objects**
+
 Objects in JS are key-value maps where values can be primitives or references. They can be created with object literals, `new Object()`, or constructors/`class`.
 
 ```js
@@ -207,7 +213,8 @@ console.log(user.email); // alice@example.com
 
 ---
 
-**7. `this` in JS (Implicit Binding)**
+### **7. `this` in JS (Implicit Binding)**
+
 When you call `obj.method()`, `this` inside `method` implicitly refers to `obj`. But if you extract the method, `this` can be lost. Understanding binding is crucial.
 
 ```js
@@ -237,7 +244,8 @@ boundGreet(); // Hi, I’m Bob
 
 ---
 
-**8. `call`, `bind`, and `apply` (Explicit Binding)**
+### **8. `call`, `bind`, and `apply` (Explicit Binding)**
+
 These methods let you explicitly set `this` for a function. Useful for borrowing methods or partial application.
 
 ```js
@@ -269,7 +277,8 @@ introCarol("Japan"); // I’m Carol from Tokyo, Japan
 
 ---
 
-**9. Promises (Async JS)**
+### **9. Promises (Async JS)**
+
 A `Promise` represents a value that may be available now, later, or never. It can be in one of three states: pending, fulfilled, or rejected. Use them for asynchronous flows instead of deeply nested callbacks.
 
 ```js
@@ -320,7 +329,8 @@ run();
 
 ---
 
-**10. Debouncing and Throttling**
+### **10. Debouncing and Throttling**
+
 Both are techniques to limit how often a function runs in response to rapid events (like scrolling, resizing, or keypresses).
 
 * **Debouncing**: Ensures a function only runs *after* a burst of events has stopped for a certain interval.
@@ -377,7 +387,8 @@ document
 
 ---
 
-**11. Event Bubbling, Capturing, and Delegation**
+### **11. Event Bubbling, Capturing, and Delegation**
+
 
 * **Capturing phase**: Event travels from `window` → `document` → down to the target.
 * **Target phase**: Event reaches the actual element.
@@ -424,7 +435,8 @@ document.getElementById("list").addEventListener(
 
 ---
 
-**12. Event Loop**
+### **12. Event Loop**
+
 Understanding the event loop is key to grasping JS’s nonblocking nature. At a high level:
 
 1. **Call Stack**: Executes synchronous code.
@@ -469,7 +481,8 @@ setTimeout callback
 
 ---
 
-**13. Class and Constructors**
+### **13. Class and Constructors**
+
 ES6 classes are syntactic sugar over prototype-based constructors. They make inheritance and object creation more readable.
 
 ```js
@@ -512,7 +525,8 @@ alice.study(); // Alice is studying CS.
 
 ---
 
-**14. `compose` and `pipe`**
+### **14. `compose` and `pipe`**
+
 These are functional programming utilities that let you combine smaller functions into larger ones. `compose` passes data right-to-left, `pipe` left-to-right.
 
 ```js
@@ -545,7 +559,8 @@ console.log(showDoublePlusOnePipe(3)); // "7"
 
 ---
 
-**15. Prototypes**
+### **15. Prototypes**
+
 Every JS object has a hidden `[[Prototype]]` (accessible via `__proto__` or `Object.getPrototypeOf`). Methods and properties are looked up the prototype chain if not found on the instance itself.
 
 ```js
